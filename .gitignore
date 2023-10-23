@@ -1,5 +1,4 @@
-/node_modules
-/.env.local
+# Umi dev/build outputs
 /.umirc.local.ts
 /config/config.local.ts
 /src/.umi
@@ -11,3 +10,19 @@
 /dist
 /.mfsu
 .swc
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Local env files
+.env*
+
+# Misc
+.DS_Store
+.idea
+.vscode
+*.code-workspace

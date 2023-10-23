@@ -1,19 +1,36 @@
 {
-  "private": true,
-  "author": "Jandan <lutao1096@gmail.com>",
+  "name": "umi-starter",
+  "version": "1.0.0",
+  "description": "一个 UmiJS + TailwindCSS + TypeScript + ESLint + Prettier 的基础项目",
+  "keywords": [
+    "umijs",
+    "tailwind",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "license": "MIT",
+  "author": "welives",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "lint": "umi lint"
   },
   "dependencies": {
     "umi": "^4.0.87",
     "vue": "^3.3.6"
   },
   "devDependencies": {
+    "@umijs/lint": "^4.0.87",
     "@umijs/preset-vue": "^4.0.87",
     "cross-env": "^7.0.3",
-    "typescript": "^5.2.2"
+    "eslint": "^8.52.0",
+    "stylelint": "^15.11.0",
+    "typescript": "^5.2.2",
+    "prettier": "^2.8.8",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3"
   }
 }
