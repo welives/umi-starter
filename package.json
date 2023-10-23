@@ -1,9 +1,11 @@
 {
-  "name": "umi-starter",
+  "name": "umijs-starter",
   "version": "1.0.0",
   "description": "一个 UmiJS + TailwindCSS + TypeScript + ESLint + Prettier 的基础项目",
   "keywords": [
     "umijs",
+    "vue",
+    "vant",
     "tailwind",
     "typescript",
     "eslint",
