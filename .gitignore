@@ -19,7 +19,7 @@ logs
 *.log
 
 # Local env files
-.env*
+.env*.local
 
 # Misc
 .DS_Store
