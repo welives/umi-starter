@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import { useCounter } from '../stores/counter'
+import { useCounter } from '../stores'
 
 export default defineComponent({
   setup() {
@@ -9,7 +9,7 @@ export default defineComponent({
         <p>This is umi docs.</p>
         <div>
           <button onClick={counter.decrement}>minus</button>
-          <span class="mx-3">{counter.count}</span>
+          <span className="mx-3">{counter.count}</span>
           <button onClick={counter.increment}>plus</button>
         </div>
       </div>
