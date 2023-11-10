@@ -9,7 +9,7 @@ export default defineComponent({
         <p>This is umi docs.</p>
         <div>
           <button onClick={counter.decrement}>minus</button>
-          <span className="mx-3">{counter.count}</span>
+          <span class="mx-3">{counter.count}</span>
           <button onClick={counter.increment}>plus</button>
         </div>
       </div>

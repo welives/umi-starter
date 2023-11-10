@@ -1,6 +1,6 @@
 # umijs-starter
 
-这是一个 `UmiJS` + `TailwindCSS` + `TypeScript` + `ESLint` + `Prettier` 的起手式
+一个开箱即用的基于 `UmiJS4` + `Vue` + `Ant-Design-Vue` + `TailwindCSS` + `TypeScript` 的项目模板
 
 这个工程的搭建笔记可以[在这里查看](https://welives.github.io/blog/front-end/engineering/umijs.html)
 
@@ -31,7 +31,8 @@ pnpm lint
 ## 相关文档
 
 - [UmiJS](https://umijs.org/)
-- [TypeScript](https://www.tslang.cn/)
+- [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn)
 - [TailwindCSS](https://tailwind.nodejs.cn/)
+- [TypeScript](https://www.tslang.cn/)
 - [ESLint](https://eslint.nodejs.cn/)
 - [Prettier](https://prettier.nodejs.cn/)
