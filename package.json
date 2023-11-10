@@ -1,15 +1,15 @@
 {
   "name": "umijs-starter",
   "version": "1.0.0",
-  "description": "一个 UmiJS + TailwindCSS + TypeScript + ESLint + Prettier 的基础项目",
+  "description": "开箱即用的基于 UmiJS4 + Vant + TailwindCSS + TypeScript 的模板",
   "keywords": [
-    "umijs",
-    "react",
-    "vant",
-    "tailwind",
-    "typescript",
-    "eslint",
-    "prettier"
+    "UmiJS",
+    "React",
+    "Vant",
+    "TailwindCSS",
+    "TypeScript",
+    "ESLint",
+    "Prettier"
   ],
   "license": "MIT",
   "author": "welives",
