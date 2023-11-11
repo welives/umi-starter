@@ -8,9 +8,6 @@ dependencies:
   '@ant-design/icons':
     specifier: ^5.2.6
     version: 5.2.6(react-dom@18.2.0)(react@18.2.0)
-  '@ant-design/pro-layout':
-    specifier: ^7.17.13
-    version: 7.17.13(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0)
   antd:
     specifier: ^5.11.1
     version: 5.11.1(react-dom@18.2.0)(react@18.2.0)
@@ -281,32 +278,6 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-layout@7.17.13(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-RbXHwS0iCx2kBtSkWuQ5d4AVvTRzNZg7LoAUBGz54LLM/MooXXvUr8I6wicRanvYoPBCd/NTuAQjsfIDrbSeqg==}
-    peerDependencies:
-      antd: '>=4.23.0 || >=5.0.0'
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    dependencies:
-      '@ant-design/icons': 5.2.6(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.13.3(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.14.12(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0)
-      '@babel/runtime': 7.23.2
-      '@umijs/route-utils': 4.0.1
-      '@umijs/use-params': 1.0.9(react@18.2.0)
-      antd: 5.11.1(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.3.2
-      lodash.merge: 4.6.2
-      omit.js: 2.0.2
-      path-to-regexp: 2.4.0
-      rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.38.0(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      swr: 2.2.4(react@18.2.0)
-      warning: 4.0.3
-    dev: false
-
   /@ant-design/pro-layout@7.17.9(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-2uQYz4cZLDqPeI07PtiQIPWBOULxk7YO0uhqdNjpHqMTOfJ3B4uiI4coVVJacaxXIN0Xjr0AI7dZIep6ojqZCQ==}
     peerDependencies:
@@ -375,23 +346,6 @@ packages:
       swr: 2.2.4(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-provider@2.13.3(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-qkD/qA5NsLRxQTDdkgfviTZbsC0BeHahNTbJiZdwVwYMMLBzg0C1ptnHm4ofKdXt0EzARg/WG5EjaVOtvs/sFw==}
-    peerDependencies:
-      antd: '>=4.23.0 || >=5.0.0'
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    dependencies:
-      '@ant-design/cssinjs': 1.17.2(react-dom@18.2.0)(react@18.2.0)
-      '@babel/runtime': 7.23.2
-      '@ctrl/tinycolor': 3.6.1
-      antd: 5.11.1(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.38.0(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      swr: 2.2.4(react@18.2.0)
-    dev: false
-
   /@ant-design/pro-skeleton@2.1.7(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-5DLD319GTEfxe/GW/Pgja+QjWp89J1DJlKrKvjfQu9z5SCekKPxqG9KmB1F55/eHow1Oe+YjkaqSF55i0xK79Q==}
     peerDependencies:
@@ -436,27 +390,6 @@ packages:
     transitivePeerDependencies:
       - '@types/lodash.merge'
     dev: true
-
-  /@ant-design/pro-utils@2.14.12(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-hPNO/PFOeWCWl2p/VxM6JIeKvqAPJCheqh8kw0HuPfGpAmr6k8Wf4G9/6er5rmfYryObW11OOmBSyXTxM9sWUg==}
-    peerDependencies:
-      antd: '>=4.23.0 || >=5.0.0'
-      react: '>=17.0.0'
-      react-dom: '>=17.0.0'
-    dependencies:
-      '@ant-design/icons': 5.2.6(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.13.3(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0)
-      '@babel/runtime': 7.23.2
-      antd: 5.11.1(react-dom@18.2.0)(react@18.2.0)
-      classnames: 2.3.2
-      dayjs: 1.11.10
-      lodash.merge: 4.6.2
-      rc-util: 5.38.0(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      safe-stable-stringify: 2.4.3
-      swr: 2.2.4(react@18.2.0)
-    dev: false
 
   /@ant-design/pro-utils@2.14.9(antd@5.11.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-2AA1Gh221braXbQFIpa33OPogKqsiWZLiL5WVUH91yw+PXWMyVE19I7ygjMgo6h6e2scAZa1Ho93wI8jv0mX3w==}
@@ -3789,6 +3722,7 @@ packages:
 
   /@umijs/route-utils@4.0.1:
     resolution: {integrity: sha512-+1ixf1BTOLuH+ORb4x8vYMPeIt38n9q0fJDwhv9nSxrV46mxbLF0nmELIo9CKQB2gHfuC4+hww6xejJ6VYnBHQ==}
+    dev: true
 
   /@umijs/server@4.0.87:
     resolution: {integrity: sha512-Q0fQob00Q9el+qIXB1jvV8WWhPWlz8oVdwUDxmijub52d0RVAfMsV0pHNNAB6j5y8TkX++hJ22TvW8a2aZs5PA==}
@@ -3828,6 +3762,7 @@ packages:
       react: '*'
     dependencies:
       react: 18.2.0
+    dev: true
 
   /@umijs/utils@4.0.87:
     resolution: {integrity: sha512-0gQetd/LIYzny/T10RhgbiHnHwFvscv9okbhAUepi0qZg0/LNsOAPWwCwODeK/HMXNlknPEU+nc4EvkuowZmlQ==}
@@ -4690,6 +4625,7 @@ packages:
 
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: true
 
   /cliui@8.0.1:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
@@ -7510,6 +7446,7 @@ packages:
 
   /omit.js@2.0.2:
     resolution: {integrity: sha512-hJmu9D+bNB40YpL9jYebQl4lsTW6yEHRTroJzNLqQJYHm7c+NQnJGfZmIWh8S3q3KoaxV1aLhV6B3+0N0/kyJg==}
+    dev: true
 
   /on-exit-leak-free@0.2.0:
     resolution: {integrity: sha512-dqaz3u44QbRXQooZLTUKU41ZrzYrcvLISVgbrzbyCMxpmSLJvZ3ZamIJIZ29P6OhZIkNIQKosdeM6t1LYbA9hg==}
@@ -7673,6 +7610,7 @@ packages:
 
   /path-to-regexp@2.4.0:
     resolution: {integrity: sha512-G6zHoVqC6GGTQkZwF4lkuEyMbVOjoBKAEybQUypI1WTkqinCOrq2x6U2+phkJ1XsEMTy4LjtwPI7HW+NVrRR2w==}
+    dev: true
 
   /path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
@@ -9976,6 +9914,7 @@ packages:
       client-only: 0.0.1
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
+    dev: true
 
   /symbol-observable@1.2.0:
     resolution: {integrity: sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==}
@@ -10391,6 +10330,7 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: true
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -10497,6 +10437,7 @@ packages:
     resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
     dependencies:
       loose-envify: 1.4.0
+    dev: true
 
   /watchpack@2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}

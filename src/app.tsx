@@ -1,4 +1,4 @@
-import type { AxiosRequestConfig, AxiosResponse, RequestConfig } from 'umi'
+import type { AxiosRequestConfig, AxiosResponse, RequestConfig, RunTimeLayoutConfig } from 'umi'
 
 // 错误处理方案： 错误类型
 enum ErrorShowType {
@@ -105,4 +105,11 @@ export const request: RequestConfig = {
       return response
     },
   ],
+}
+
+// 更多参数见: https://procomponents.ant.design/components/layout#prolayout
+export const layout: RunTimeLayoutConfig = () => {
+  return {
+    layout: 'mix',
+  }
 }
