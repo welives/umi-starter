@@ -1,3 +1,5 @@
+import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
+import { Button } from 'antd'
 import { useModel } from 'umi'
 
 export default function DocsPage() {
@@ -6,9 +8,9 @@ export default function DocsPage() {
     <div>
       <p>This is umi docs.</p>
       <div>
-        <button onClick={decrement}>minus</button>
+        <Button danger type="primary" icon={<MinusOutlined />} onClick={decrement} />
         <span className="mx-3">{counter}</span>
-        <button onClick={increment}>plus</button>
+        <Button type="primary" icon={<PlusOutlined />} onClick={increment} />
       </div>
     </div>
   )

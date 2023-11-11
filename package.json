@@ -1,11 +1,11 @@
 {
   "name": "umijs-starter",
   "version": "1.0.0",
-  "description": "开箱即用的基于 UmiJS4 + Vant + TailwindCSS + TypeScript 的模板",
+  "description": "开箱即用的基于 UmiJS4 + AntDesign + TailwindCSS + TypeScript 的模板",
   "keywords": [
     "UmiJS",
     "React",
-    "Vant",
+    "AntDesign",
     "TailwindCSS",
     "TypeScript",
     "ESLint",
@@ -22,10 +22,11 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "@react-vant/icons": "^0.0.10",
+    "@ant-design/icons": "^5.2.6",
+    "@ant-design/pro-layout": "^7.17.13",
+    "antd": "^5.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-vant": "^3.3.2",
     "umi": "^4.0.87"
   },
   "devDependencies": {
@@ -35,7 +36,6 @@
     "@umijs/plugins": "^4.0.87",
     "cross-env": "^7.0.3",
     "eslint": "^8.52.0",
-    "postcss-px-to-viewport-8-plugin": "^1.2.3",
     "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "^2.4.3",

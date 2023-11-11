@@ -1,3 +1,5 @@
+import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
+import { Button } from 'antd'
 import { useModel } from 'umi'
 import yayJpg from '../assets/yay.jpg'
 
@@ -13,9 +15,9 @@ export default function HomePage() {
         To get started, edit <code>pages/index.tsx</code> and save to reload.
       </p>
       <div>
-        <button onClick={decrement}>minus</button>
+        <Button danger type="primary" icon={<MinusOutlined />} onClick={decrement} />
         <span className="mx-3">{counter}</span>
-        <button onClick={increment}>plus</button>
+        <Button type="primary" icon={<PlusOutlined />} onClick={increment} />
       </div>
     </div>
   )
