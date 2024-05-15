@@ -160,8 +160,8 @@ class Utils {
   /** @description 判断对象是否有某属性 */
   hasOwnProperty = (
     ({ hasOwnProperty }) =>
-    (obj: object, prop: string) =>
-      hasOwnProperty.call(obj, prop)
+      (obj: object, prop: string) =>
+        hasOwnProperty.call(obj, prop)
   )(Object.prototype)
   /** @description 把baseURL和relativeURL组合起来 */
   combineURLs(baseURL: string, relativeURL: string) {
@@ -233,6 +233,32 @@ class Utils {
       reader.onerror = (error) => reject(error)
       reader.readAsDataURL(blob)
     }).then(cb)
+  }
+  /** @description 洗牌算法 */
+  shuffle = (arr: any[]) => {
+    const res = []
+    let random = void 0
+    while (arr.length > 0) {
+      random = Math.floor(Math.random() * arr.length)
+      res.push(arr.splice(random, 1)[0])
+    }
+    return res
+  }
+  /** @description 深拷贝 */
+  deepClone = (source: any, cache = new WeakMap()) => {
+    if (typeof source !== 'object' || source === null)
+      return source
+    if (cache.has(source))
+      return cache.get(source)
+    const target = Array.isArray(source) ? [] : {}
+    Reflect.ownKeys(source).forEach((key) => {
+      const val = source[key]
+      if (typeof val === 'object' && val !== null)
+        target[key] = this.deepClone(val, cache)
+      else
+        target[key] = val
+    })
+    return target
   }
 }
 export default Utils.instance
